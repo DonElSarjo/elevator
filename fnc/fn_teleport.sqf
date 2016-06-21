@@ -25,7 +25,7 @@ uisleep 1.5;
 
 _player allowDamage false;
 _player hideObjectGlobal true;
-_player enableSimulation false;
+_player enableSimulationGlobal false;
 
 
 uisleep 2;
@@ -35,7 +35,7 @@ _player setPosATL _pos;
 
 _player allowDamage true;
 _player hideObjectGlobal false;
-_player enableSimulation true;
+_player enableSimulationGlobal true;
 
 _player setFatigue (getFatigue _player)/2;
 
